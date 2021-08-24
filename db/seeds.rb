@@ -13,4 +13,4 @@ CartProduct.destroy_all
 
 brand1 = Brand.create!(name:"Nike")
 
-Sneaker.create!(name:"Air Force 1", price: 90, image: "No image", brand_id: brand1)
+Sneaker.create!(name:"Air Force 1", price: 90, image: "No image", brand_id: brand1.id)
